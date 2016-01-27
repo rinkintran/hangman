@@ -15,10 +15,10 @@ namespace hangman
             Console.WriteLine(skelly);
 
             Console.WriteLine("What difficulty would you like? (1-5)");
-            int diff = Console.Read();
+            int diff = Convert.ToInt32(Console.ReadLine());
 
             Dictionary d = new Dictionary();
-            d.newWord(3);
+            d.newWord(diff);
             string word = d.getWord();
             Console.WriteLine(word);
             Console.ReadLine();

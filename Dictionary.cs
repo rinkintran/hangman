@@ -16,7 +16,7 @@ public class Dictionary
     //Constructor
 	public Dictionary()
 	{
-        file = new FileStream(@"C:\Users\BenerE01\Desktop\hangman\Dictionary.txt", FileMode.Open, FileAccess.Read);
+        file = new FileStream(@"C:\Users\BenerE01\Documents\GitHub\hangman\Dictionary.txt", FileMode.Open, FileAccess.Read);
         sr = new StreamReader(file);
 
         for (int b = 0; b < 109546; b++)
