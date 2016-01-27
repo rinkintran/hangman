@@ -1,0 +1,5 @@
+objects:
+	dictionary - newWord(int difficulty), scanChar(char in)
+	letters - printLetters(), updateLetters(char input), 
+	skelly - draw(), wrongResponse()
+	answer - addLetter(char in), printAnswer()
