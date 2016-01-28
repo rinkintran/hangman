@@ -11,7 +11,7 @@ public class Dictionary
     private string word;
     private FileStream file;
     private StreamReader sr;
-    private string[] dict = new string[109546];
+    private string[] dict = new string[109557];
 
     //Constructor
 	public Dictionary()
@@ -19,7 +19,7 @@ public class Dictionary
         file = new FileStream(@"C:\Users\BenerE01\Documents\GitHub\hangman\Dictionary.txt", FileMode.Open, FileAccess.Read);
         sr = new StreamReader(file);
 
-        for (int b = 0; b < 109546; b++)
+        for (int b = 0; b < 109557; b++)
         {
             dict[b] = sr.ReadLine();
         }
@@ -35,8 +35,10 @@ public class Dictionary
 
         while (word.Length != (difficulty + 3))
         {
-            num = rnd.Next(0, 109546);
+            num = rnd.Next(0, 109557);
             word = dict[num];
+            //Console.WriteLine(num);
+            //Console.WriteLine(word);
         }
     }
 
