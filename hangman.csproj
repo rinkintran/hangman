@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Answer.cs" />
     <Compile Include="Dictionary.cs" />
     <Compile Include="Program.cs">
       <SubType>Code</SubType>

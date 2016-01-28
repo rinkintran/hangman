@@ -32,7 +32,6 @@ public class Dictionary
     public void newWord(int difficulty)
     {
         rnd = new Random();
-        //num = rnd.Next(0, 109546);
 
         while (word.Length != (difficulty + 3))
         {

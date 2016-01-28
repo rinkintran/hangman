@@ -14,7 +14,7 @@ namespace hangman
             string skelly = "      _______\n     |       |\n     0       |\n    _|_      |\n     |       |\n    / \\      |\n             |\n         ____|____\n";
             Console.WriteLine(skelly);
 
-            Console.WriteLine("What difficulty would you like? (1-5)");
+            Console.WriteLine("What difficulty would you like? (1-7)");
             int diff = Convert.ToInt32(Console.ReadLine());
 
             Dictionary d = new Dictionary();
