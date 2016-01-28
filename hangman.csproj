@@ -48,6 +48,7 @@
     <Compile Include="Program.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="skelly.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
