@@ -2,3 +2,7 @@ C:\Users\BenerE01\Documents\GitHub\hangman\bin\Debug\ConsoleApplication1.exe
 C:\Users\BenerE01\Documents\GitHub\hangman\bin\Debug\ConsoleApplication1.pdb
 C:\Users\BenerE01\Documents\GitHub\hangman\obj\x86\Debug\ConsoleApplication1.exe
 C:\Users\BenerE01\Documents\GitHub\hangman\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\TranL10\hangman\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\TranL10\hangman\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\TranL10\hangman\bin\Debug\ConsoleApplication1.exe
+C:\Users\TranL10\hangman\bin\Debug\ConsoleApplication1.pdb

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Answer.cs" />
     <Compile Include="Dictionary.cs" />
+    <Compile Include="letters.cs" />
     <Compile Include="Program.cs">
       <SubType>Code</SubType>
     </Compile>
