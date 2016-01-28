@@ -45,10 +45,17 @@
   <ItemGroup>
     <Compile Include="Answer.cs" />
     <Compile Include="Dictionary.cs" />
+<<<<<<< HEAD
     <Compile Include="letters.cs" />
     <Compile Include="Program.cs">
       <SubType>Code</SubType>
     </Compile>
+=======
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="skelly.cs" />
+>>>>>>> origin/evan
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
